@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utf8-12"
+version = "0.1.0"
+description = "UTF-8 encoding and decoding utility based on BM.py"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "BM" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
